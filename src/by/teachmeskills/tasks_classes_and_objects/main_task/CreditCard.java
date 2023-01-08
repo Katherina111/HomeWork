@@ -1,7 +1,6 @@
 package by.teachmeskills.tasks_classes_and_objects.main_task;
 
 public class CreditCard {
-
 /*
 CreditCard
 Создать класс CreditCard c полями:
@@ -50,8 +49,7 @@ CreditCard
     public void sumWithdr(double sumToWithdrowal) {
         if (sumToWithdrowal <= this.currentCountOnAccount) {
             this.currentCountOnAccount -= sumToWithdrowal;
-        }
-        else {
+        } else {
             System.out.println("Операция недоступна. Недостаточно количества средств");
         }
     }
@@ -60,5 +58,4 @@ CreditCard
     public void sumInfo() {
         System.out.println("Текущая сумма: " + this.currentCountOnAccount + " рублей на кредитном счете: " + this.numberAccount);
     }
-
 }
