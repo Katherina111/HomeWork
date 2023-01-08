@@ -1,5 +1,4 @@
 package by.teachmeskills.tasks_classes_and_objects.main_task;
-
 public class CreditCard {
 
 /*
@@ -60,5 +59,4 @@ CreditCard
     public void sumInfo() {
         System.out.println("Текущая сумма: " + this.currentCountOnAccount + " рублей на кредитном счете: " + this.numberAccount);
     }
-
 }
